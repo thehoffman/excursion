@@ -1,0 +1,71 @@
+html {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 42px;
+    color: white;
+    font-weight: 300;
+}
+
+a {
+    font-size: 16px;
+    color: aquamarine;
+}
+
+p {
+    font-size: 16px;
+    color: gray;
+}
+
+/* Specific rules */
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#phone{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#missionstatement{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#missionstatement img{
+    object-fit: cover;
+    max-width: 50%;
+    min-width: 500px;
+    height: auto;
+}
+
+
+#info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#copyright {
+    text-align: right;
+    color: gray;
+}
